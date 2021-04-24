@@ -1,0 +1,300 @@
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+body{
+    max-width: 600px;
+    
+}
+
+.hero-heading{
+    font-size: 50px;
+  }
+    
+.hero-container  {
+    background-color: rgb(12, 1, 1);
+    height: 90vh;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .intro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+  }
+
+  .hero-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    max-width: 600px;
+      
+     
+  }  
+  
+  #book-btn{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    background-color:rgb(48, 233, 23); 
+    border: 2px solid;
+    color: white;
+    padding: 15px 32px;
+    font-size: 15px;
+  }
+
+  .about-us{
+    max-width: 600px;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-image{
+      display: none;
+  }
+  
+  .story-container{ 
+    margin-top: 10px;
+    width: 390px;
+    height: 500px;
+    background-image: url("ofada elewe vert.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .about-text{
+      width: 380px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      margin-top: 100px;
+  }
+
+  .fancy-heading{
+    color: gold;
+    font-family: 'Berkshire Swash', cursive;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .normal-heading{
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .inset{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    max-width: 450px;
+  
+  }
+
+  .about-paragraph{
+    color: black;
+    max-width:350px;
+    text-align:center;
+    margin-top: 20px;
+  }  
+
+
+
+.more-about{
+    color: black ;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+
+.inset-image{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    padding-right: 30px;
+    
+  }
+
+  .menu-section{
+    max-width: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    height: 250px;
+
+  }
+
+  .menu-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+
+  }
+  
+  .menu-paragraph{
+    line-height: 35px;
+    width: 400px;
+    height: ;
+  }
+
+  
+.menu-list{
+    background-color: black;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+  }
+  
+  .menu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 500px;
+    height: 250px;
+  }
+  
+  .menu-text{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  #menu-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  
+  .grills-image {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    
+    align-items: center;
+   
+
+  }
+
+  .menu-list{
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #event-container{ 
+    margin-top: 10px;
+    width: 390px;
+    height: 500px;
+    background-image: url("african_restaurant vert.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  
+.ingridients {
+    background-color: black;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ingridients-h2{
+    text-align: center;
+  }
+  
+  .ingridients-content{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: n30pxone;
+    max-width: 500px;
+    height: 200px;
+  }
+  
+  .ingridients-image{
+    height: 400px;
+    max-width: 600px;
+  }
+
+  .reservation{
+    background-image:url('herbs-and-spices-wallpaper-hd-1920x1200-410405.jpg');;
+    background-size: cover;
+    background-color: black;
+    height: 50vh;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+ 
+  }
+
+  .footer{
+    background-color: black;
+    color: white;
+    height: 30vh;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+  }
+
+
+}
