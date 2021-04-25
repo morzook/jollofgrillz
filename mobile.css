@@ -81,14 +81,13 @@
       flex-direction: column;
       justify-content: center;
       align-content: center;
-      margin-top: 50px;
+      margin-top: 30px;
   }
 
   .about-paragraph{
     color: black;
     width: 95%;
     text-align: center;
-    line-height: 35px;
     display: flex;
     flex-direction: row;
   }  
@@ -127,7 +126,7 @@
 .inset-image{
     display: flex;
     justify-content: space-betwen;
-    margin-top: 70px;
+    margin-top: 60px;
     width: 150px;
     height: 150px;
     
